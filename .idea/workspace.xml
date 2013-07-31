@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06757ccc-2020-41db-9d95-d3644ae6eccf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crypto/sha3.js" />
-      <change type="DELETED" beforePath="C:\projects\prototypes\Hasher-sha3\npm-debug.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Hasher-sha3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -14,7 +11,7 @@
     <file path="/script.js" changelist="06757ccc-2020-41db-9d95-d3644ae6eccf" time="1375108357625" ignored="false" />
     <file path="/index.jade" changelist="06757ccc-2020-41db-9d95-d3644ae6eccf" time="1375109115945" ignored="false" />
     <file path="/events.js" changelist="06757ccc-2020-41db-9d95-d3644ae6eccf" time="1375108707219" ignored="false" />
-    <file path="/server.js" changelist="06757ccc-2020-41db-9d95-d3644ae6eccf" time="1375281782938" ignored="false" />
+    <file path="/server.js" changelist="06757ccc-2020-41db-9d95-d3644ae6eccf" time="1375285335089" ignored="false" />
     <file path="/manager.js" changelist="06757ccc-2020-41db-9d95-d3644ae6eccf" time="1375109414291" ignored="false" />
     <file path="/transport.js" changelist="06757ccc-2020-41db-9d95-d3644ae6eccf" time="1375109439267" ignored="false" />
     <file path="/Crypto.js" changelist="06757ccc-2020-41db-9d95-d3644ae6eccf" time="1375277834452" ignored="false" />
@@ -42,19 +39,8 @@
       <file leaf-file-name="server.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="0" selection-start="2330" selection-end="2330" vertical-scroll-proportion="0.48397976">
+            <state line="79" column="0" selection-start="2330" selection-end="2330" vertical-scroll-proportion="0.5362563">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sha3.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crypto/sha3.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="71" selection-start="211" selection-end="211" vertical-scroll-proportion="-4.08">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -129,8 +115,8 @@
         <option value="$PROJECT_DIR$/static/js/script.js" />
         <option value="$PROJECT_DIR$/node_modules/cryptojs/lib/Crypto.js" />
         <option value="$PROJECT_DIR$/static/js/sha3.js" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/crypto/sha3.js" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
@@ -320,6 +306,23 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="06757ccc-2020-41db-9d95-d3644ae6eccf" name="Default" comment="" />
@@ -496,7 +499,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="0" selection-start="2330" selection-end="2330" vertical-scroll-proportion="0.48397976">
+        <state line="79" column="0" selection-start="2330" selection-end="2330" vertical-scroll-proportion="0.5362563">
           <folding />
         </state>
       </provider>

@@ -78,14 +78,23 @@ function NotFound(msg) {
     Error.captureStackTrace(this, arguments.callee);
 }
 
-
 console.log('Listening on http://localhost:' + port);
+process.stdout.write("Please enter the Username for Hash");
 
-if (!process.argv[2]) {
-    throw new Error('Hello where is my input!!!');
-}
-console.log("\nThank you! your input is:  " + process.argv[2].toString());
-words = crypto.SHA3(process.argv[2].toString(), { outputLength: 256 });
-hex = crypto.enc.Hex.stringify(words);
+/**
+ * Now instead of just passing the value from the console during start
+ * we can just have a callback that provides the Hash when a value is
+ * entered
+ */
+process.stdin.on('data', function (chunk) {
+    process.stdin.resume();
+    process.stdin.setEncoding('utf8');
+    words = crypto.SHA3(chunk.toString().trim(), { outputLength: 256 });
+    hex = crypto.enc.Hex.stringify(words);
+    process.stdout.write("\nYour SHA3 value is: " + hex + "\n");
+});
+process.stdin.resume();
+process.on('SIGINT', function () {
+    console.log('Thank You!!');
+});
 
-console.log("\nYour SHA3 value is: ", hex);
