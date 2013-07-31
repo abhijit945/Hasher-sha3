@@ -38,6 +38,7 @@ var io = io.listen(server);
 io.sockets.on('connection', function (socket) {
     console.log('Client Connected');
     socket.on('message', function (data) {
+        console.log('data:', data);
         socket.broadcast.emit('server_message', data);
         socket.emit('server_message', data);
     });
@@ -93,8 +94,5 @@ process.stdin.on('data', function (chunk) {
     hex = crypto.enc.Hex.stringify(words);
     process.stdout.write("\nYour SHA3 value is: " + hex + "\n");
 });
-process.stdin.resume();
-process.on('SIGINT', function () {
-    console.log('Thank You!!');
-});
+
 

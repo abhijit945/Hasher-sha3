@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06757ccc-2020-41db-9d95-d3644ae6eccf" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/script.js" afterPath="$PROJECT_DIR$/static/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Hasher-sha3.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="06757ccc-2020-41db-9d95-d3644ae6eccf" time="1375209715060" ignored="false" />
-    <file path="/a.dummy" changelist="06757ccc-2020-41db-9d95-d3644ae6eccf" time="1375277841611" ignored="false" />
-    <file path="/script.js" changelist="06757ccc-2020-41db-9d95-d3644ae6eccf" time="1375108357625" ignored="false" />
-    <file path="/index.jade" changelist="06757ccc-2020-41db-9d95-d3644ae6eccf" time="1375109115945" ignored="false" />
+    <file path="/Dummy.txt" changelist="06757ccc-2020-41db-9d95-d3644ae6eccf" time="1375302708901" ignored="false" />
+    <file path="/a.dummy" changelist="06757ccc-2020-41db-9d95-d3644ae6eccf" time="1375301858468" ignored="false" />
+    <file path="/script.js" changelist="06757ccc-2020-41db-9d95-d3644ae6eccf" time="1375300823895" ignored="false" />
+    <file path="/index.jade" changelist="06757ccc-2020-41db-9d95-d3644ae6eccf" time="1375300770512" ignored="false" />
     <file path="/events.js" changelist="06757ccc-2020-41db-9d95-d3644ae6eccf" time="1375108707219" ignored="false" />
-    <file path="/server.js" changelist="06757ccc-2020-41db-9d95-d3644ae6eccf" time="1375285335089" ignored="false" />
+    <file path="/server.js" changelist="06757ccc-2020-41db-9d95-d3644ae6eccf" time="1375300970886" ignored="false" />
     <file path="/manager.js" changelist="06757ccc-2020-41db-9d95-d3644ae6eccf" time="1375109414291" ignored="false" />
     <file path="/transport.js" changelist="06757ccc-2020-41db-9d95-d3644ae6eccf" time="1375109439267" ignored="false" />
     <file path="/Crypto.js" changelist="06757ccc-2020-41db-9d95-d3644ae6eccf" time="1375277834452" ignored="false" />
@@ -36,10 +38,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="server.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="0" selection-start="2330" selection-end="2330" vertical-scroll-proportion="0.5362563">
+            <state line="36" column="27" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -48,16 +50,16 @@
       <file leaf-file-name="transport.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/socket.io/lib/transport.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="481" column="24" selection-start="9836" selection-end="9836" vertical-scroll-proportion="0.0">
+            <state line="394" column="20" selection-start="8148" selection-end="8149" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manager.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/socket.io/lib/manager.js">
+      <file leaf-file-name="socket.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/socket.io/lib/socket.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="380" column="48" selection-start="7365" selection-end="7365" vertical-scroll-proportion="0.0">
+            <state line="87" column="8" selection-start="1562" selection-end="1562" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -66,25 +68,16 @@
       <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="3" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
+            <state line="14" column="3" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="events.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/mocha/lib/browser/events.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="163" column="0" selection-start="2614" selection-end="2614" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jade" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.jade" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="25" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
+            <state line="5" column="8" selection-start="71" selection-end="71" vertical-scroll-proportion="0.09350935">
               <folding />
             </state>
           </provider>
@@ -109,22 +102,22 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/node_modules/mocha/lib/browser/events.js" />
-        <option value="$PROJECT_DIR$/views/index.jade" />
         <option value="$PROJECT_DIR$/node_modules/socket.io/lib/transport.js" />
         <option value="$PROJECT_DIR$/node_modules/socket.io/lib/manager.js" />
-        <option value="$PROJECT_DIR$/static/js/script.js" />
         <option value="$PROJECT_DIR$/node_modules/cryptojs/lib/Crypto.js" />
         <option value="$PROJECT_DIR$/static/js/sha3.js" />
         <option value="$PROJECT_DIR$/crypto/sha3.js" />
         <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/static/js/script.js" />
+        <option value="$PROJECT_DIR$/views/index.jade" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="776" />
+    <option name="x" value="1272" />
+    <option name="y" value="-489" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -152,6 +145,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -240,7 +234,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -255,10 +253,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mocha" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -278,13 +272,16 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="appearance" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../tradestation/webclient/Dev" />
     <property name="FullScreen" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -332,14 +329,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <frame x="1272" y="-489" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21679065" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1646778" sideWeight="0.7832093" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10911966" sideWeight="0.99786556" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -348,6 +344,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1430096" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -414,6 +411,20 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/static/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="3" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="25" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/express/bin/express">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -422,23 +433,6 @@
     <entry file="file://$PROJECT_DIR$/node_modules/express/lib/http.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="54" selection-start="1225" selection-end="1236" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/socket.io/lib/socket.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="312" column="47" selection-start="5416" selection-end="5423" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="23" selection-start="1498" selection-end="1498" vertical-scroll-proportion="1.0958678" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/mocha/lib/browser/events.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="163" column="0" selection-start="2614" selection-end="2614" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.json">
@@ -453,53 +447,62 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.jade">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="25" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
+        <state line="880" column="9" selection-start="13727" selection-end="13727" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crypto/sha3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="71" selection-start="211" selection-end="211" vertical-scroll-proportion="-4.08" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mocha/lib/browser/events.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="176" column="14" selection-start="2903" selection-end="2903" vertical-scroll-proportion="3.1214166" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="46" selection-start="1231" selection-end="1241" vertical-scroll-proportion="1.0033727" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/socket.io/lib/manager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="514" column="35" selection-start="9872" selection-end="9879" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="27" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/socket.io/lib/transport.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="481" column="24" selection-start="9836" selection-end="9836" vertical-scroll-proportion="0.0">
+        <state line="394" column="20" selection-start="8148" selection-end="8149" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/socket.io/lib/manager.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/socket.io/lib/socket.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="380" column="48" selection-start="7365" selection-end="7365" vertical-scroll-proportion="0.0">
+        <state line="87" column="8" selection-start="1562" selection-end="1562" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="3" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
+        <state line="14" column="3" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+    <entry file="file://$PROJECT_DIR$/views/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="880" column="9" selection-start="13727" selection-end="13727" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crypto/sha3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="71" selection-start="211" selection-end="211" vertical-scroll-proportion="-4.08">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="0" selection-start="2330" selection-end="2330" vertical-scroll-proportion="0.5362563">
+        <state line="5" column="8" selection-start="71" selection-end="71" vertical-scroll-proportion="0.09350935">
           <folding />
         </state>
       </provider>
