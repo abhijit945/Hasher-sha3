@@ -3,7 +3,9 @@ var connect = require('connect')
     , express = require('express')
     , io = require('socket.io')
     , port = (process.env.PORT || 8085)
-    , sha3 = require('sha3');
+    , crypto = require('./crypto/sha3').CryptoJS
+    , words
+    , hex;
 
 //Setup Express
 var server = express.createServer();
@@ -83,5 +85,7 @@ if (!process.argv[2]) {
     throw new Error('Hello where is my input!!!');
 }
 console.log("\nThank you! your input is:  " + process.argv[2].toString());
+words = crypto.SHA3(process.argv[2].toString(), { outputLength: 256 });
+hex = crypto.enc.Hex.stringify(words);
 
-console.log("\nYour SHA3 value is: ", new sha3.SHA3Hash(256).digest('hex'));
+console.log("\nYour SHA3 value is: ", hex);
